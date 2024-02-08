@@ -1,0 +1,164 @@
+
+h1 {
+    color: #ffffff;
+}
+.header-text {
+    border: 5px solid #ffffff; 
+    padding: 10px;
+    display: inline-block;
+}
+
+.white-background {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #006633;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.info-box {
+    border: 5px solid #000000;
+    padding: 20px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    margin: 0 auto; /* Centering form horizontally */
+    max-width: 800px; 
+    padding: 20px; 
+}
+  
+
+body {
+    background-color: #ffcc33;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    background-image: linear-gradient(#006633, #006633);
+    margin: 0 auto; /* Centering page horizontally */
+    max-width: 800px; 
+    text-align: left;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.labels {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    color: black;
+}
+
+.inputs {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.input-field {
+    height: 30px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c5c4c4;
+    border-radius: 2px;
+
+}
+
+
+.radios {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.block {
+    padding-bottom: 10px;
+}
+
+.checks {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.check-block {
+    display: block;
+    padding-bottom: 10px;
+}
+
+textarea {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 300px;
+    height: 55px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.buttonstyle {
+    background-color: #0396c8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 22px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.footer p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width: 833px) {
+    .input-field {
+        width: 80%;
+    }
+
+    select {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+
+    .inputs {
+        width: 80%;
+        float: left;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+}
